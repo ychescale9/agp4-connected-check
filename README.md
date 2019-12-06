@@ -1,5 +1,9 @@
 # AGP 4 with Product Flavor Crash
 
+**Update:** This is now fixed: https://issuetracker.google.com/issues/145160121
+
+-------------------------
+
 A project showing an issue introduced in **AGP 4.0.0**, where running `./gradlew connectedCheck` on a module with any **product flavor** crashes:
 
 ```
